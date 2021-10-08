@@ -25,7 +25,9 @@ SECRET_KEY = '3lc-sf3)ug(%lz!(8tk_du@*#vc$*98%x&^r0kb(g$ytzopm$@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# allowed_host 에러 발생하는 경우
+# 모든 접속을 허용하도록 함
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
